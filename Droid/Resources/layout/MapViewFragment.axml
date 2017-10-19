@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameContainer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <include
+        android:id="@+id/tasksToolbar"
+        layout="@layout/toolbar" />
+<!-- <Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:minWidth="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasksToolbar"
+        android:title="Tasks"
+        android:gravity="center_horizontal">
+		
+		-->
+<!--    </Toolbar>-->
+<!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/tasksRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+<style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <!--<item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primaryDark</item>
+    <item name="colorAccent">@color/accent</item>-->
+		<item name="android:colorPrimary">#2196F3</item>
+		<item name="android:colorPrimaryDark">#1976D2</item>
+		 <item name="android:colorAccent">#FF4081</item>
+</style>
+	<style name="AppTheme" parent="AppTheme.Base">
+   <item name="android:colorPrimary">#2196F3</item>
+		<item name="android:colorPrimaryDark">#1976D2</item>
+		 <item name="android:colorAccent">#FF4081</item>
+</style>
+
+</resources>
